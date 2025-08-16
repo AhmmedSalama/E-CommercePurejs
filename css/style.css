@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important
+}
+.noInternet .container {
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 200;
+}
+
+main {
+    margin-top: 70px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li a {
+    display: block;
+    color: #000;
+    min-width: 80px;
+    padding: 3px;
+    margin: 0px 4px;
+}
+
+
+#user {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: capitalize;
+    display: none;
+}
+
+nav ul#userInfo {
+    margin: 1rem 0rem;
+    display: none;
+}
+
+nav ul#userInfo li i {
+    color: #000;
+    font-size: 25px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+nav ul#userInfo li {
+    position: relative;
+}
+
+nav ul#userInfo li .badge {
+    position: absolute;
+    background-color: #007bff;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 50%;
+    top: -10px;
+    right: 16px;
+    font-size: 15px;
+}
+
+
+.ViewPro{
+    width: 94%;
+}
+.Home {
+    margin: 5rem auto;
+    padding: 0 3rem;
+}
+
+.fas {
+    color: #007bff;
+}
+
+.far {
+    color: #5bc0de;
+}
+
+
+.buyProudect {
+    padding-top: .5rem;
+}
+
+.buyProudect .mins,
+.buyProudect .pls {
+    height: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.buyProudect .pls{
+    padding: 0px 20px 25px 10px;
+}
+.buyProudect .mins{
+    padding: 0px 17px 25px 13px;
+}
+.buyProudect div {
+    background-color: #fff;
+    padding: .5rem 0rem;
+    color: #007bff;
+    border-radius: 5px;
+}
+
+.product-item-action i {
+    font-size: 30px;
+    cursor: pointer;
+}
+.product-item {
+    transition: 0.5s;
+}
+.product-item:hover {
+    transform: scale(1.1);
+}
+
+.card .product-item-action .RemoveFromCartBtn {
+    display: none;
+}
+
+.card .product-item-action .AddToCartBtn {
+    display: inline-block;
+}
+
+.fav{
+margin: 3rem 0rem 5rem 0rem;
+} 
+
+
+
+/* ----------------------------- */
+
+.cartsProudect {
+    display: none;
+    position: absolute !important;
+    top: 53px; 
+    right: -98px;
+    z-index: 999;
+    width: 250px;
+}
+
+.shoppingCart:hover .cartsProudect {
+    display: block;
+}
+
+/* No Internet */
+.noInternet {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.95);
+    z-index: 9999;
+}
+
+#logOut{
+    text-decoration: none;
+}

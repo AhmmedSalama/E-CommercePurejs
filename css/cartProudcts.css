@@ -1,0 +1,58 @@
+body {
+        background-color: #f8f9fa;
+      }
+      /* === Product Cards === */
+      .products .card {
+        transition: all 0.3s ease;
+      }
+      .products .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+      }
+      .products .product-item img {
+        object-fit: contain;
+        max-height: 200px;
+        width: 100%;
+      }
+
+      /* === Favorites Carousel === */
+      .carousel .card {
+        border-radius: 12px;
+        overflow: hidden;
+        transition: 0.3s;
+        border: none;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+      }
+      /* -- MODIFIED -- */
+      .carousel .card .favorite-img {
+        object-fit: contain; /* Ensures the whole image is visible */
+        height: 200px;
+        width: 100%;
+        padding: 0.5rem; /* Add some padding around the image */
+      }
+      .carousel-control-prev-icon,
+      .carousel-control-next-icon {
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+        padding: 1.2rem;
+      }
+
+      /* Back Button */
+      .btn-back {
+        border-radius: 30px;
+        padding: 10px 25px;
+        transition: 0.3s;
+      }
+      .btn-back:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Favorite Icon */
+      .fav-btn {
+        cursor: pointer;
+        transition: transform 0.2s ease-in-out;
+      }
+      .fav-btn:hover {
+        transform: scale(1.2);
+      }

@@ -1,0 +1,22 @@
+body {
+      background: #f8f9fa;
+    }
+    .navbar-brand img {
+      height: 50px;
+      width: auto;
+    }
+    .section-form {
+      min-height: 100vh;
+    }
+    .form-container {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 0.75rem;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 420px;
+    }
+    .form-container h2 {
+      margin-bottom: 1.5rem;
+      font-weight: 700;
+    }
